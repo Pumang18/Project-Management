@@ -4,9 +4,11 @@ import com.pumang.ProjectManagement.model.Invitation;
 import com.pumang.ProjectManagement.repository.InvitationRepository;
 import jakarta.mail.MessagingException;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.UUID;
 
+@Service
 public class InvitationServiceImpl implements InvitationService{
 
     @Autowired
